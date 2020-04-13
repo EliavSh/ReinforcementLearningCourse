@@ -79,9 +79,9 @@ def test4():
     pass
 
 
-# testBellman()
+testBellman()
 # testValueIteration()
-tmp = testPolicy_iteration()
+# tmp = testPolicy_iteration()
 input()
 pygame.quit()
 
