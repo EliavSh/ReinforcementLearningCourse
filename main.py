@@ -85,21 +85,10 @@ def test_sarsa(num_of_episodes):
     print(init_q)
 
 
-"""
-    # saving the tables as sns 'heatmap' with annotations
-    sns.set()
-    q_plot = sns.heatmap(Q, annot=True, fmt='.2f')
-    figure = q_plot.get_figure()
-    figure.savefig('Final_Q_table.png', dpi=400)
-    init_q_plot = sns.heatmap(init_Q, annot=True, fmt='.2f')
-    figure = init_q_plot.get_figure()
-    figure.savefig('Initial_Q_table.png', dpi=400)
-"""
-
 # test_bellman()
 # test_value_iteration()
 # test_policy_iteration()
-test_tmp_difference(NUM_OF_EPISODES)
-# test_sarsa(NUM_OF_EPISODES)
+# test_tmp_difference(NUM_OF_EPISODES)
+test_sarsa(NUM_OF_EPISODES)
 input()
 pygame.quit()
